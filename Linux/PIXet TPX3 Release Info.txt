@@ -1,3 +1,7 @@
+PIXet TPX3 1.4.4 (535) 18.5.2016
+-----------------------------
+- fixed incorrect reading of chip ID from some chips
+
 PIXet TPX3 1.4.4 (500) 19.2.2016
 -----------------------------
 - fixed correction of TOA time for pixel packets received from FPGA with delay (14bits of TOA were stuck at 16388 value)
