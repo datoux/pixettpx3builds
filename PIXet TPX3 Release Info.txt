@@ -1,0 +1,62 @@
+PIXet TPX3 1.4.5 (553) 28.6.2016
+-----------------------------
+- changed output checkbox - now warning when file already exists
+- added posibility to script main window from python scripting
+- fixed acq. time in t3pa files
+
+PIXet TPX3 1.4.4 (535) 18.5.2016
+-----------------------------
+- fixed incorrect reading of chip ID from some chips
+
+PIXet TPX3 1.4.4 (500) 19.2.2016
+-----------------------------
+- fixed correction of TOA time for pixel packets received from FPGA with delay (14bits of TOA were stuck at 16388 value)
+
+PIXet TPX3 1.4.4 (483) 27.1.2016
+-----------------------------
+- as Pixet 1.4.4
+- returned to original ftoa column shift correction
+
+PIXet TPX3 1.4.3 (383) 19.11.2015
+-----------------------------
+- added trigger count in pixels (toa=trigger count, tot = 0)
+
+PIXet TPX3 1.4.3 (381) 18.11.2015
+-----------------------------
+- added negative polarity equalization for Timepix3
+
+PIXet TPX3 1.4.3 (369) 26.10.2015
+-----------------------------
+- as Pixet 1.4.3
+
+PIXet TPX3 1.4.2 (363) 15.10.2015
+-----------------------------
+- fixed wrong toa timestamp for longer measurements in pixels
+- removed t0sync in firmware after measurement
+- added reading of last acq time from tpx3
+
+PIXet TPX3 1.4.2 (333) 25.9.2015
+-----------------------------
+- fixed ftoa correction (now only 4 bits)
+- added more trigger levels (rising edge, falling edge)
+- improvements in normal Pixet for this build
+
+PIXet TPX3 1.4.1 (326) 15.9.2015
+-----------------------------
+- fixed integral frames with only tot mode
+- fixed crash in data driven mode after repeat
+- fixed saving of only tot mode frames
+- fixed repeat saving of data driven files - can choose between single file and r_index files
+
+PIXet TPX3 1.4.1 (295) 9.9.2015
+-----------------------------
+- hopefully fixed crash when measuring in data driven mode (image props panel was accessing released variable)
+
+PIXet TPX3 1.4.1 (292) 27.8.2015
+-----------------------------
+- just build with new Pixet PRO, no changes for TPX3
+
+PIXet TPX3 1.3.1 (239)
+-----------------------------
+- first documented released version
+
