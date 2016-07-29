@@ -1,3 +1,9 @@
+PIXet TPX3 1.4.6 (555) 29.7.2016
+-----------------------------
+- added support for USB3.0 Timepix3 readout
+- changed visualization of Tpx3Pixels in preview window - just a moving window now and sum all checkbox
+- fixed crash when measuring in data driven mode with acq. time 0
+
 PIXet TPX3 1.4.5 (553) 28.6.2016
 -----------------------------
 - changed output checkbox - now warning when file already exists
