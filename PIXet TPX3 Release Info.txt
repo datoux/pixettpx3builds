@@ -1,3 +1,8 @@
+PIXet TPX3 1.4.6 (556) 17.8.2016
+-----------------------------
+- fixed test pulse measurement with spacing more than 1, before only single pixel from spacing group had value.
+- data driven mode moved to measurement type combo box
+
 PIXet TPX3 1.4.6 (555) 29.7.2016
 -----------------------------
 - added support for USB3.0 Timepix3 readout
