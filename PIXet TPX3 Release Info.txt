@@ -1,3 +1,66 @@
+Pixet Pro 1.4.7 (582) 26.12.2016
+-----------------------------
+- [zem] - fixed pause when starting data driven mode tpx3 - was unnecessary clearing data
+- [zem] - tpx3 added triggers
+- [pixet] - fixed moving of qpwplot by mouse
+- [pyscripting] - added restarting of interpreter
+- [pxcore] - fixed occasional freeze when looking for updates
+- [pyscripting] - fixed shiftThlValueOver - masking
+- [pygui] - added qpropertyview in pygui
+- [pydevcontrol] - added remembering of collapsing panels in main window
+- [pxcapi] - added support for tpx3 data driven mode
+- [zem] - added triggers for AdvaPIX
+- [pygui] - added showmessage, textedit, input dialog, file dialogs
+- [composite] - fixed reporting of pixel count of the device
+- [composite] - outputs double data so that they can be calibrated
+- [clustering] - added decimal step to per pixel spectra
+- [pxcore] - loading frames from cluster log works also for larger frames (multiple chips)
+- [pxcore] - possible to force unlock locked device
+- [equalization] - tot mode default in equalization
+- [measutils] - added trigger measurement
+- [hdf5] - fixed saving of data in hdf5 files in sub path
+- [hdf5] - fixed loading of hdf5 frames from file
+- [poscontroller] - works now on linux
+- [pyscripting] - maskMatrix, thlMatrix .. for multiple chips
+- [drivers] - added D2XX Helper for Mac OS X
+- [pixet] - data driven mode as acquisition type
+- [fitpix] - fixed compression data measurement with ModuPIX
+- [devcontrol] - test pulse option shown only for devices that support them
+- [pixet] - added common frame panel to plugins
+- [pixet] - fixed test pulses with Tpx3 and Mpx3
+- [pixet] - added loading of cluster logs
+- [devcontrol] - added loading/saving of calibration files
+- [pixet] - added calibration for timepix3 pixels
+- [devcontrol] - fixed droping files on file device
+- [pixet] -added time walk correction
+- [pixet] - added option to save data in hdf5 files in sub directory - e.g. /home/user/test.h5:subfolder
+- [pyscripting] - added running of part of the script
+- [pyscripting] - support of tpx3 pixels and advanced acquisitions and test pulse acqusitions
+- [pyscripting] - support fo Timepix pixCfg in scripting
+- [pixet] - improved loading/unloading pxcore - start exit functions
+- [pixet]- relative paths in pixet.ini to pxcore library
+- [fitpix] - added check for ftdi devices
+- [pixet] - added sensing of bias voltage after repeat
+- [pygui] - added support for plots and mpxframe
+- [devcontrol] - added chip layouts
+- [devcontrol] - fixed error message when clicking auto update
+- [devcontrol] - added saving of current image in curret color map
+- [devcontrol] - filters not applied on pix cfg frames
+- [zem] - added check for USB 2.0 connection
+- [pxcore] - fixed calculation of threshold for different ikrums and positive sensors
+- [zem] - fixed integral acquisition in burst mode in AdvaPIX
+- [devcontrol] - fixed creating of repeat files, repeat checkbox
+- [zem] - fixed digital test for Timepix3
+- [pyscripting] - better access to frame data
+- [zem] - fixed aborting of aqcuisition in frame mode in Tpx3
+- [devcontrol] - fixed shit thl over/under for different sub frames
+- [pixet] - fixed integration frames for Timepix3
+- [equalization] - fixed negative sensors equalization for Tpx3
+- [devcontrol] - remmebering of tpx3 operation mode when exiting pixet
+- [pixet] - test pulses in data driven mode in Timepix3
+- [equalization] - added equalization in iTot for Timepix3
+- [zem] - added support for triggers in AdvaPIX
+
 PIXet TPX3 1.4.6 (556) 17.8.2016
 -----------------------------
 - fixed test pulse measurement with spacing more than 1, before only single pixel from spacing group had value.
